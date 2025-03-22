@@ -175,23 +175,104 @@ function App() {
         </div>
         <div class="row">
           <div class="column">
-            <h2 className="item-title">Pokédex</h2>
+            <a
+              href="https://tiflux.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title">Tiflux - Sistema de tickets</h2>{" "}
+            </a>
+            <p>
+              Meu primeiro e atual trabalho, onde atuo como desenvolvedor
+              frontend, sou responsável por diversas features e adequações
+              visuais no sistema, minhas contribuições mais notáveis foram a
+              visual do agente e o novo modelo de whitelabel implementado no
+              sistema, ambas levando alguns meses de tabalho para serem
+              concluídas.
+            </p>
+            <p>
+              Em conjunto com meu time desenvolvemos e seguimos dando manuteção
+              à várias áreas do sistema, incluindo, mas não limitado à: cadastro
+              de clientes, catálogos de serviços, mesas de serviços, integrações
+              (Github, Jira, etc.) e o aplicativo mobile.
+            </p>
             <p style={{ fontSize: "2.5vh" }}>
+              Para o desenvolvimento do sistema utilizamos React, Typescript,
+              NodeJS, PostgreSQL, Docker, Git, entre outras tecnologias.
+            </p>
+          </div>
+          <div class="column-right">
+            <img
+              style={{ width: "40vw", marginTop: 20 }}
+              src="/tiflux-background.png"
+              alt="pokedex"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <a
+              href="https://github.com/Zzziiro/zirodex"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title">Pokédex</h2>{" "}
+            </a>
+            <p>
               Aplicação web responsável por listar todos os pokémons e
               possibilitar visualizar dados específicos de cada um. Para tal, é
               utilizada a PokéAPI (disponível em https://pokeapi.co/), através
               de requisições REST que retornarão os dados desejados.
             </p>
-            <p style={{ fontSize: "2.5vh" }}>
+            <p>
               A ideia estética do projeto foi inspirada na Pokédex dos jogos
               clássicos de Pokémon, com um design simples e intuitivo. Busquei
               trazer a familiaridade dos jogos para o ambiente web, com um
               layout limpo e organizado, mas prezando pela fidelidade gráfica da
               época.
             </p>
+            <p style={{ fontSize: "2.5vh" }}>
+              O site é inteiramente responsivo, o sque foi uma das minhas
+              principais principais prioridades ao desenvolvê-lo. Para o
+              desenvolvimento foi utilizado Javascript CSS e HTML, os
+              componentes foram feitos por mim.
+            </p>
           </div>
+          <div class="column-right">
+            <img style={{ width: "40vw" }} src="/pokédex.gif" alt="pokedex" />
+          </div>
+        </div>
+        <div class="row">
           <div class="column">
-            <img style={{ width: "80vh" }} src="/pokédex.gif" alt="pokedex" />
+            <a
+              href="https://github.com/Zzziiro/zirodex"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title">Pokédex</h2>{" "}
+            </a>
+            <p>
+              Aplicação web responsável por listar todos os pokémons e
+              possibilitar visualizar dados específicos de cada um. Para tal, é
+              utilizada a PokéAPI (disponível em https://pokeapi.co/), através
+              de requisições REST que retornarão os dados desejados.
+            </p>
+            <p>
+              A ideia estética do projeto foi inspirada na Pokédex dos jogos
+              clássicos de Pokémon, com um design simples e intuitivo. Busquei
+              trazer a familiaridade dos jogos para o ambiente web, com um
+              layout limpo e organizado, mas prezando pela fidelidade gráfica da
+              época.
+            </p>
+            <p style={{ fontSize: "2.5vh" }}>
+              O site é inteiramente responsivo, o sque foi uma das minhas
+              principais principais prioridades ao desenvolvê-lo. Para o
+              desenvolvimento foi utilizado Javascript CSS e HTML, os
+              componentes foram feitos por mim.
+            </p>
+          </div>
+          <div class="column-right">
+            <img style={{ width: "40vw" }} src="/pokédex.gif" alt="pokedex" />
           </div>
         </div>
         <div className="sub-btn code-btn" onClick={() => setShowSecB(true)}>

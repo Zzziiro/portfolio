@@ -130,6 +130,14 @@ body {
   text-decoration: none;
   color: inherit;
 }
+a {
+  /* text-decoration: none; */
+  text-decoration-color: #9f56db;
+  color: inherit;
+}
+p {
+  font-size: 2.5vh;
+}
 .head {
   color: #eaeaea;
   background: #222;
@@ -400,8 +408,14 @@ body {
 }
 .column {
   float: left;
-  margin: 20px;
-  max-width: 45%;
+  margin: 5vh;
+  max-width: 50%;
+  /* width: 50%; */
+}
+.column-right {
+  float: right;
+  margin: 5vh;
+  max-width: 50%;
   /* width: 50%; */
 }
 .row:after {
