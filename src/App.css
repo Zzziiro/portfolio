@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.item-title {
+  font-size: 6vh;
+  color: #9f56db;
+  margin-block: 0;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -44,7 +50,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Lato";
+  font-family: "avenir-roman", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: #222;
 }
 .menu {
@@ -128,7 +136,7 @@ body {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 60px;
-  height: 100vh;
+  height: 98vh;
   width: 100vw;
   position: relative;
   z-index: 1111;
@@ -175,7 +183,7 @@ body {
   font-weight: 900;
 }
 .name {
-  width: 500px;
+  /* width: 500px; */
   top: 50%;
   position: absolute;
   left: 50%;
@@ -184,7 +192,7 @@ body {
   font-family: "Schoolbell", cursive;
   font-weight: 500;
   font-style: normal;
-  font-size: 5rem;
+  font-size: 12vh;
 }
 .name span {
   background-image: linear-gradient(#9f56db, #c09fdb);
@@ -210,7 +218,7 @@ body {
   margin-top: 7px;
   font-weight: 300;
   margin-left: 23px;
-  font-size: 25px;
+  font-size: 4vh;
 }
 .content-wrap {
   position: absolute;
@@ -389,4 +397,20 @@ body {
 .sec-B h1 {
   color: #eaeaea;
   border-bottom: 1px solid #eaeaea;
+}
+.column {
+  float: left;
+  margin: 20px;
+  max-width: 45%;
+  /* width: 50%; */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.devicon {
+  font-size: 7vh;
+  padding: 3vh;
+  color: "#9f56db";
 }
