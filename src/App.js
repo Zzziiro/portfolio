@@ -216,30 +216,27 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="item-title">Pokédex</h2>{" "}
+              <h2 className="item-title">Pomodoro Quest - WIP</h2>
             </a>
             <p>
-              Aplicação web responsável por listar todos os pokémons e
-              possibilitar visualizar dados específicos de cada um. Para tal, é
-              utilizada a PokéAPI (disponível em https://pokeapi.co/), através
-              de requisições REST que retornarão os dados desejados.
+              Esse projeto está sendo feito em conjunto com dois amigos com quem
+              eu trabalho, consiste básicamente em uma aplicação web de pomodoro
+              para gestão de tempo com uma gamificação idle atrelada, a qual
+              consiste em construir partes de um vilarejo em troca de moedas
+              ganhas por focar no trabalho, estudos, etc.
             </p>
             <p>
-              A ideia estética do projeto foi inspirada na Pokédex dos jogos
-              clássicos de Pokémon, com um design simples e intuitivo. Busquei
-              trazer a familiaridade dos jogos para o ambiente web, com um
-              layout limpo e organizado, mas prezando pela fidelidade gráfica da
-              época.
+              Nesse projeto fui responsável pelo design, prototipação,
+              identidade visual além do desenvolvimento do frontend, que inclui
+              a criação de telas, componentes e partes gráficas.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              O site é inteiramente responsivo, o sque foi uma das minhas
-              principais principais prioridades ao desenvolvê-lo. Para o
-              desenvolvimento foi utilizado Javascript CSS e HTML, os
-              componentes foram feitos por mim.
+              Para o desenvolvimento do front foi utilizado React, Typescript,
+              Javascript e CSS.
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "40vw" }} src="/pokédex.gif" alt="pokedex" />
+            <img style={{ width: "40vw" }} src="/village.png" alt="pokedex" />
           </div>
         </div>
         <div class="row">
