@@ -176,6 +176,7 @@ function App() {
         <div class="row">
           <div class="column">
             <a
+              className="purple"
               href="https://tiflux.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -212,6 +213,7 @@ function App() {
         <div class="row">
           <div class="column">
             <a
+              className="purple"
               href="https://github.com/Zzziiro/zirodex"
               target="_blank"
               rel="noopener noreferrer"
@@ -242,6 +244,7 @@ function App() {
         <div class="row">
           <div class="column">
             <a
+              className="purple"
               href="https://github.com/Zzziiro/zirodex"
               target="_blank"
               rel="noopener noreferrer"
@@ -272,15 +275,150 @@ function App() {
             <img style={{ width: "40vw" }} src="/pokédex.gif" alt="pokedex" />
           </div>
         </div>
-        <div className="sub-btn code-btn" onClick={() => setShowSecB(true)}>
+        <div class="row">
+          <div class="column">
+            <a
+              className="purple"
+              href="https://github.com/stars/Zzziiro/lists/projetos-clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title">Projetos clone</h2>
+            </a>
+            <p>
+              Primeiros projetos feitos por mim quando estava aprendendo
+              frontend, com o intuito de entender melhor como funcionava a
+              renderização e estilização de componentes em tela.
+            </p>
+            <p style={{ fontSize: "2.5vh" }}>
+              Utilizei Javascript, Typescript, CSS e HTML para o
+              desenvolvimento.
+            </p>
+            <p style={{ fontSize: "2.5vh" }}>
+              Os projetos são: um clone do Linkedin, um do Twitter, um do
+              Mercado Livre e um do Pipefy.
+            </p>
+          </div>
+          <div class="column-right">
+            <img
+              style={{ width: "19vw", margin: "0.5vw" }}
+              src="/linkedIn.gif"
+              alt="pokedex"
+            />
+            <img
+              style={{ width: "19vw", margin: "0.5vw" }}
+              src="/pipefy.gif"
+              alt="pokedex"
+            />
+            <br />
+            <img
+              style={{ width: "19vw", margin: "0.5vw" }}
+              src="/mercado-livre.gif"
+              alt="pokedex"
+            />
+          </div>
+        </div>
+        <div
+          style={{ marginBottom: 25 }}
+          className="sub-btn code-btn"
+          onClick={() => setShowSecB(true)}
+        >
           See Design
         </div>
       </div>
       <div className={`side sec-B ${showSecB ? "showing" : ""}`}>
         <div className="desc">
-          <h1>Front-End</h1>
+          <h1>Design</h1>
         </div>
-        <div className="sub-btn back-btn" onClick={() => setShowSecB(false)}>
+        <div class="row">
+          <div class="column">
+            <a
+              className="white"
+              href="https://docs.google.com/document/d/1om7X2rpayJicbLeQArFZgXHV22YxDPu4QkUhwbBTvAM/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title-white">Redesign AVA</h2>{" "}
+            </a>
+            <p className="white">
+              Com a ajuda do meu grupo, desenvolvi um relatório (modelo TCC) e
+              um protótipo completo para o redesign da plataforma AVA (Ambiente
+              Virtual de Aprendizagem) da faculdade Católica, com o intuito de
+              melhorar a experiência do usuário e a usabilidade da plataforma.
+            </p>
+            <p className="white">
+              Foi um grande aprendizado, refazer uma interface do zero mantendo
+              todos os pontos necessários e removendo os que não eram
+              utilizados, ao mesmo tempo que mantivemos a essencia da
+              plataforma, a demos um ar completamente novo.
+            </p>
+            <p className="white" style={{ fontSize: "2.5vh" }}>
+              Utilizamos Figma, Photoshop e Google Docs como ferramentas de
+              design, de metodologia projetual optamos pelo design thinking e
+              ferramentas de pesquisa usamos moodboards, persona, paineis
+              semânticos, análise swot e heurística, etc.
+            </p>
+          </div>
+          <div class="column-right">
+            <img style={{ width: "40vw" }} src="/ava.png" alt="pokedex" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <a
+              className="white"
+              href="https://drive.google.com/file/d/15lgRUBbcWjtR1iizVmbpvqDnx9iSqzN4/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h2 className="item-title-white">
+                Brandbook Formento Modelagens
+              </h2>{" "}
+            </a>
+            <p className="white">
+              Junto com três colegas de faculdade, desenvolvemos uma nova
+              identidade visual com brandbook e guia de marca para a empresa
+              Formento Modelagens, uma empresa de modelagens de roupas.
+            </p>
+            <p className="white">
+              Foi um grade desafio com alguns meses de trabalho, mas no fim
+              gostamos muito do resultado, fechamos em um design moderno e
+              minimalista, com cores sóbrias e uma tipografia limpa. As cores
+              trazem uma classe mas também uma calmaria para todo o projeto.
+            </p>
+            <p className="white" style={{ fontSize: "2.5vh" }}>
+              Utilizamos Photoshop, Illustrator e Canva para o desenvolvimento
+              do Brandbook.
+            </p>
+          </div>
+          <div class="column-right">
+            <img style={{ width: "40vw" }} src="/brandbook.gif" alt="pokedex" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <h2 className="item-title-white">GlowPack</h2>
+            <p className="white">
+              Neste trabalho fizemos o design, marca e protótipo de uma
+              shoulder-bag com luz interna, tivemos essa ideia pela dificuldade
+              de achar objetos pequenos em ambientes escuros, como baladas,
+              festas, etc.
+            </p>
+            <p className="white">
+              Nos baseamos na estética Pop Art, pois queríamos algo chamativo e
+              que se destacasse em ambientes escuros, que é parte da proposta da
+              Glow.
+            </p>
+          </div>
+          <div class="column-right">
+            <img style={{ width: "30vw" }} src="/glowpack.jpeg" alt="pokedex" />
+          </div>
+        </div>
+        <div
+          style={{ marginBottom: 25 }}
+          className="sub-btn back-btn"
+          onClick={() => setShowSecB(false)}
+        >
           Back
         </div>
       </div>

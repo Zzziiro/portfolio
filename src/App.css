@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #eaeaea;
 }
 
 .App-link {
@@ -31,6 +31,12 @@
 .item-title {
   font-size: 6vh;
   color: #9f56db;
+  margin-block: 0;
+}
+
+.item-title-white {
+  font-size: 6vh;
+  color: #eaeaea;
   margin-block: 0;
 }
 
@@ -130,13 +136,21 @@ body {
   text-decoration: none;
   color: inherit;
 }
-a {
-  /* text-decoration: none; */
+.purple {
   text-decoration-color: #9f56db;
+}
+.white {
+  text-decoration-color: #eaeaea;
+  color: #eaeaea;
+}
+a {
   color: inherit;
 }
 p {
   font-size: 2.5vh;
+  .white {
+    color: #eaeaea;
+  }
 }
 .head {
   color: #eaeaea;
@@ -364,7 +378,7 @@ p {
 }
 .sub-btn {
   margin: 0 auto;
-  width: 130px;
+  width: 150px;
   text-align: center;
   text-transform: uppercase;
   height: 15px;
@@ -410,18 +424,21 @@ p {
   float: left;
   margin: 5vh;
   max-width: 50%;
-  /* width: 50%; */
 }
 .column-right {
   float: right;
   margin: 5vh;
   max-width: 50%;
-  /* width: 50%; */
+  text-align: center;
 }
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+.row {
+  align-items: center;
+  display: flex;
 }
 .devicon {
   font-size: 7vh;
