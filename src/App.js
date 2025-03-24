@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import { t } from "i18next";
 
 function App() {
   const [showSecA, setShowSecA] = useState(false);
@@ -24,35 +25,42 @@ function App() {
           />
         </h1>
         <ul className="topnav">
-          <li>
+          <li className="topIcons">
             <a
               href="https://www.linkedin.com/in/lucas-guimar%C3%A3es-16b064228/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-linkedin" />
-              LinkedIn
+              <i class="devicon-linkedin-plain"></i>{" "}
             </a>
           </li>
-          <li>
-            <a
-              href="https://www.instagram.com/zzziiro/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa fa-instagram" />
-              Instagram
-            </a>
-          </li>
-          <li>
+          <li className="topIcons">
             <a
               href="https://github.com/Zzziiro"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
-              <i className="fa fa-github" />
+              <i class="devicon-github-original"></i>
             </a>
+          </li>
+          <li
+            className="topIcons"
+            style={{ cursor: "pointer", position: "absolute", left: "95vw" }}
+          >
+            <svg
+              width="30px"
+              height="30px"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 8L10 13M4 14L10 8L12 5M2 5H14M7 2H8M12.913 17H20.087M12.913 17L11 21M12.913 17L15.7783 11.009C16.0092 10.5263 16.1246 10.2849 16.2826 10.2086C16.4199 10.1423 16.5801 10.1423 16.7174 10.2086C16.8754 10.2849 16.9908 10.5263 17.2217 11.009L20.087 17M20.087 17L22 21"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </li>
         </ul>
       </div>
@@ -184,22 +192,21 @@ function App() {
               <h2 className="item-title">Tiflux - Sistema de tickets</h2>{" "}
             </a>
             <p>
-              Meu primeiro e atual trabalho, onde atuo como desenvolvedor
-              frontend, sou responsável por diversas features e adequações
-              visuais no sistema, minhas contribuições mais notáveis foram a
-              visual do agente e o novo modelo de whitelabel implementado no
-              sistema, ambas levando alguns meses de tabalho para serem
-              concluídas.
+              My first and current job, where I work as a frontend developer,
+              responsible for various features and visual adjustments in the
+              system. My most notable contributions were the agent's interface
+              and the new whitelabel model implemented in the system, both
+              taking a few months of work to complete.
             </p>
             <p>
-              Em conjunto com meu time desenvolvemos e seguimos dando manuteção
-              à várias áreas do sistema, incluindo, mas não limitado à: cadastro
-              de clientes, catálogos de serviços, mesas de serviços, integrações
-              (Github, Jira, etc.) e o aplicativo mobile.
+              Together with my team, we develop and maintain several areas of
+              the system, including but not limited to: customer registration,
+              service catalogs, service desks, integrations (GitHub, Jira,
+              etc.), and the mobile app.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              Para o desenvolvimento do sistema utilizamos React, Typescript,
-              NodeJS, PostgreSQL, Docker, Git, entre outras tecnologias.
+              For the system development, we use React, TypeScript, NodeJS,
+              PostgreSQL, Docker, Git, among other technologies.
             </p>
           </div>
           <div class="column-right">
@@ -221,20 +228,20 @@ function App() {
               <h2 className="item-title">Pomodoro Quest - WIP</h2>
             </a>
             <p>
-              Esse projeto está sendo feito em conjunto com dois amigos com quem
-              eu trabalho, consiste básicamente em uma aplicação web de pomodoro
-              para gestão de tempo com uma gamificação idle atrelada, a qual
-              consiste em construir partes de um vilarejo em troca de moedas
-              ganhas por focar no trabalho, estudos, etc.
+              This project is being developed together with two friends I work
+              with. It basically consists of a web application for time
+              management using the Pomodoro technique with an idle gamification
+              element, where users build parts of a village in exchange for
+              coins earned by focusing on work, studies, etc.
             </p>
             <p>
-              Nesse projeto fui responsável pelo design, prototipação,
-              identidade visual além do desenvolvimento do frontend, que inclui
-              a criação de telas, componentes e partes gráficas.
+              In this project, I was responsible for design, prototyping, visual
+              identity, and frontend development, including creating screens,
+              components, and graphic elements.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              Para o desenvolvimento do front foi utilizado React, Typescript,
-              Javascript e CSS.
+              For frontend development, we used React, TypeScript, JavaScript,
+              and CSS.
             </p>
           </div>
           <div class="column-right">
@@ -252,23 +259,22 @@ function App() {
               <h2 className="item-title">Pokédex</h2>{" "}
             </a>
             <p>
-              Aplicação web responsável por listar todos os pokémons e
-              possibilitar visualizar dados específicos de cada um. Para tal, é
-              utilizada a PokéAPI (disponível em https://pokeapi.co/), através
-              de requisições REST que retornarão os dados desejados.
+              A web application that lists all Pokémon and allows users to view
+              specific data about each one. To achieve this, it uses the PokéAPI
+              (available at https://pokeapi.co/) through REST requests that
+              return the desired data.
             </p>
             <p>
-              A ideia estética do projeto foi inspirada na Pokédex dos jogos
-              clássicos de Pokémon, com um design simples e intuitivo. Busquei
-              trazer a familiaridade dos jogos para o ambiente web, com um
-              layout limpo e organizado, mas prezando pela fidelidade gráfica da
-              época.
+              The project's aesthetic idea was inspired by the classic Pokémon
+              games' Pokédex, with a simple and intuitive design. I aimed to
+              bring the familiarity of the games to the web environment with a
+              clean and organized layout while maintaining the graphical
+              fidelity of that era.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              O site é inteiramente responsivo, o sque foi uma das minhas
-              principais principais prioridades ao desenvolvê-lo. Para o
-              desenvolvimento foi utilizado Javascript CSS e HTML, os
-              componentes foram feitos por mim.
+              The website is fully responsive, which was one of my main
+              priorities when developing it. The development was done using
+              JavaScript, CSS, and HTML, and all components were made by me.
             </p>
           </div>
           <div class="column-right">
@@ -286,17 +292,16 @@ function App() {
               <h2 className="item-title">Projetos clone</h2>
             </a>
             <p>
-              Primeiros projetos feitos por mim quando estava aprendendo
-              frontend, com o intuito de entender melhor como funcionava a
-              renderização e estilização de componentes em tela.
+              These were my first projects when I was learning frontend
+              development. They were created to better understand how rendering
+              and styling of on-screen components work.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              Utilizei Javascript, Typescript, CSS e HTML para o
-              desenvolvimento.
+              I used JavaScript, TypeScript, CSS, and HTML for development.
             </p>
             <p style={{ fontSize: "2.5vh" }}>
-              Os projetos são: um clone do Linkedin, um do Twitter, um do
-              Mercado Livre e um do Pipefy.
+              The projects include clones of LinkedIn, Twitter, Mercado Livre,
+              and Pipefy.
             </p>
           </div>
           <div class="column-right">
@@ -338,25 +343,25 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="item-title-white">Redesign AVA</h2>{" "}
+              <h2 className="item-title-white">AVA Redesign</h2>{" "}
             </a>
             <p className="white">
-              Com a ajuda do meu grupo, desenvolvi um relatório (modelo TCC) e
-              um protótipo completo para o redesign da plataforma AVA (Ambiente
-              Virtual de Aprendizagem) da faculdade Católica, com o intuito de
-              melhorar a experiência do usuário e a usabilidade da plataforma.
+              With the help of my group, I developed a report (in a thesis
+              format) and a complete prototype for redesigning the Catholic
+              University’s AVA (Virtual Learning Environment) platform, aiming
+              to improve user experience and usability.
             </p>
             <p className="white">
-              Foi um grande aprendizado, refazer uma interface do zero mantendo
-              todos os pontos necessários e removendo os que não eram
-              utilizados, ao mesmo tempo que mantivemos a essencia da
-              plataforma, a demos um ar completamente novo.
+              It was a great learning experience to redesign an interface from
+              scratch while keeping all necessary elements and removing unused
+              ones, maintaining the platform's essence while giving it a
+              completely new look.
             </p>
             <p className="white" style={{ fontSize: "2.5vh" }}>
-              Utilizamos Figma, Photoshop e Google Docs como ferramentas de
-              design, de metodologia projetual optamos pelo design thinking e
-              ferramentas de pesquisa usamos moodboards, persona, paineis
-              semânticos, análise swot e heurística, etc.
+              We used Figma, Photoshop, and Google Docs as design tools. For the
+              project methodology, we opted for design thinking, and for
+              research tools, we used mood boards, personas, semantic panels,
+              SWOT analysis, heuristic analysis, etc.
             </p>
           </div>
           <div class="column-right">
@@ -376,19 +381,20 @@ function App() {
               </h2>{" "}
             </a>
             <p className="white">
-              Junto com três colegas de faculdade, desenvolvemos uma nova
-              identidade visual com brandbook e guia de marca para a empresa
-              Formento Modelagens, uma empresa de modelagens de roupas.
+              Together with three college colleagues, we developed a new visual
+              identity with a brand book and brand guide for Formento
+              Modelagens, a clothing modeling company.
             </p>
             <p className="white">
-              Foi um grade desafio com alguns meses de trabalho, mas no fim
-              gostamos muito do resultado, fechamos em um design moderno e
-              minimalista, com cores sóbrias e uma tipografia limpa. As cores
-              trazem uma classe mas também uma calmaria para todo o projeto.
+              It was a great challenge that took a few months of work, but in
+              the end, we were very pleased with the result. We settled on a
+              modern and minimalist design with sober colors and clean
+              typography. The colors bring both elegance and a sense of calm to
+              the entire project.
             </p>
             <p className="white" style={{ fontSize: "2.5vh" }}>
-              Utilizamos Photoshop, Illustrator e Canva para o desenvolvimento
-              do Brandbook.
+              We used Photoshop, Illustrator, and Canva to develop the brand
+              book.
             </p>
           </div>
           <div class="column-right">
@@ -399,15 +405,15 @@ function App() {
           <div class="column">
             <h2 className="item-title-white">GlowPack</h2>
             <p className="white">
-              Neste trabalho fizemos o design, marca e protótipo de uma
-              shoulder-bag com luz interna, tivemos essa ideia pela dificuldade
-              de achar objetos pequenos em ambientes escuros, como baladas,
-              festas, etc.
+              In this project, we designed, branded, and prototyped a shoulder
+              bag with an internal light. The idea came from the difficulty of
+              finding small objects in dark environments such as clubs, parties,
+              etc.
             </p>
             <p className="white">
-              Nos baseamos na estética Pop Art, pois queríamos algo chamativo e
-              que se destacasse em ambientes escuros, que é parte da proposta da
-              Glow.
+              We based the design on Pop Art aesthetics, as we wanted something
+              striking and eye-catching in dark environments, which is part of
+              Glow’s concept.
             </p>
           </div>
           <div class="column-right">

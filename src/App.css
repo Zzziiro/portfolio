@@ -111,7 +111,10 @@ body {
   font-weight: 300;
   color: #eaeaea;
   font-size: 15px;
+  margin-top: 3px;
   letter-spacing: 1px;
+  justify-content: space-between;
+  width: 90vw;
 }
 .topnav li {
   text-align: center;
