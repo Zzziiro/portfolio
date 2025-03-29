@@ -208,11 +208,10 @@ p {
   font-weight: 900;
 }
 .name {
-  /* width: 500px; */
+  width: 50vw;
   top: 50%;
   position: absolute;
-  left: 50%;
-  margin-left: -250px;
+  justify-self: anchor-center;
   margin-top: -30px;
   font-family: "Schoolbell", cursive;
   font-weight: 500;

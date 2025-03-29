@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { t } from "i18next";
+// import { t } from "i18next";
 
 function App() {
   const [showSecA, setShowSecA] = useState(false);
@@ -20,7 +20,7 @@ function App() {
         >
           <img
             style={{ width: 80, top: -10, left: 0, position: "absolute" }}
-            src="/face-icon.png"
+            src="https://i.imgur.com/FfxphR5.png"
             alt="Face Icon"
           />
         </h1>
@@ -212,7 +212,7 @@ function App() {
           <div class="column-right">
             <img
               style={{ width: "40vw", marginTop: 20 }}
-              src="/tiflux-background.png"
+              src="https://i.imgur.com/pNq9nbs.png"
               alt="pokedex"
             />
           </div>
@@ -245,7 +245,11 @@ function App() {
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "40vw" }} src="/village.png" alt="pokedex" />
+            <img
+              style={{ width: "40vw" }}
+              src="https://i.imgur.com/YcdzBh6.png"
+              alt="pokedex"
+            />
           </div>
         </div>
         <div class="row">
@@ -278,7 +282,11 @@ function App() {
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "40vw" }} src="/pokédex.gif" alt="pokedex" />
+            <img
+              style={{ width: "40vw" }}
+              src="https://i.imgur.com/cUkJjLK.gif"
+              alt="pokedex"
+            />
           </div>
         </div>
         <div class="row">
@@ -289,7 +297,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <h2 className="item-title">Projetos clone</h2>
+              <h2 className="item-title">Clone projects</h2>
             </a>
             <p>
               These were my first projects when I was learning frontend
@@ -307,18 +315,18 @@ function App() {
           <div class="column-right">
             <img
               style={{ width: "19vw", margin: "0.5vw" }}
-              src="/linkedIn.gif"
+              src="https://i.imgur.com/VJjVJlS.gif"
               alt="pokedex"
             />
             <img
               style={{ width: "19vw", margin: "0.5vw" }}
-              src="/pipefy.gif"
+              src="https://i.imgur.com/edyRwSJ.gif"
               alt="pokedex"
             />
             <br />
             <img
               style={{ width: "19vw", margin: "0.5vw" }}
-              src="/mercado-livre.gif"
+              src="https://i.imgur.com/1mZpArU.gif"
               alt="pokedex"
             />
           </div>
@@ -365,7 +373,11 @@ function App() {
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "40vw" }} src="/ava.png" alt="pokedex" />
+            <img
+              style={{ width: "40vw" }}
+              src="https://i.imgur.com/sYg0whV.png"
+              alt="pokedex"
+            />
           </div>
         </div>
         <div class="row">
@@ -398,7 +410,11 @@ function App() {
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "40vw" }} src="/brandbook.gif" alt="pokedex" />
+            <img
+              style={{ width: "40vw" }}
+              src="https://i.imgur.com/M9tD7Rb.gif"
+              alt="pokedex"
+            />
           </div>
         </div>
         <div class="row">
@@ -417,7 +433,11 @@ function App() {
             </p>
           </div>
           <div class="column-right">
-            <img style={{ width: "30vw" }} src="/glowpack.jpeg" alt="pokedex" />
+            <img
+              style={{ width: "30vw" }}
+              src="https://i.imgur.com/BOzwbOU.jpeg"
+              alt="pokedex"
+            />
           </div>
         </div>
         <div
